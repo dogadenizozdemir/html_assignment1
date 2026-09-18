@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Astrology & Tarot</title>
+</head>
+<body>
+
+    <header>
+        <h1>Astrology & Tarot Guidance</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us for a Reading</h2>
+            <p>Fill out the form below to request a session or ask a question.</p>
+            
+            <form action="#" method="GET">
+                <fieldset>
+                    <legend>Personal & Reading Information</legend>
+                    
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                    <br><br>
+
+                    <label for="emailAddr">Email Address:</label>
+                    <input type="email" id="emailAddr" name="emailAddr" required>
+                    <br><br>
+
+                    <label for="birthDate">Date of Birth:</label>
+                    <input type="date" id="birthDate" name="birthDate" required>
+                    <br><br>
+
+                    <label for="readingType">Select Reading Type:</label>
+                    <select id="readingType" name="readingType">
+                        <option value="horary">Horary Question</option>
+                        <option value="natal">Natal Chart Analysis</option>
+                        <option value="tarot">Tarot Reading</option>
+                        <option value="yearly">Yearly Forecast</option>
+                    </select>
+                    <br><br>
+
+                    <label for="message">Your Question or Details:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Submit Request">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Doğa. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
